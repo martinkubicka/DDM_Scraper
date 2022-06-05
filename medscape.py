@@ -1,3 +1,10 @@
+## @file medscape.py
+# @author Martin Kubička (xkubic45@stud.fit.vutbr.cz)
+# @date 3.6.2022
+#
+# @brief declarations of functions which scrape data from medscape website
+# @todo add comments and on line 25 can me sometimes something wrong
+
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
@@ -72,13 +79,4 @@ def medscape_input_data(drug1, drug2, driver, reload):
     except:
         return -1
 
-
-
-
-
-
-
-
-
-
-
+### End of medscape.py ###
